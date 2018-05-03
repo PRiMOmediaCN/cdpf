@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; border:0;}
+.container{ float:left; width:1920px; height:1080px; background:url(bg.png);}
+.posit1{ position:absolute; z-index:1;}
+.posit2{ position:absolute; z-index:2;}
+.posit3{ position:absolute; z-index:3;}
+.posit4{ position:absolute; z-index:4;}
+.posit9{ position:absolute; z-index:9;}
+.dpl{display:none}
+.fl{ float: left;}
+.white_font{ color: #ffffff;}
+.orange_font{ color: #ff5b09;}
+.width_100{ width:100%;}
+.label_white_pl{ color: #fff; line-height: 50px; float: left; font-size: 14px;}
+.margin_t_40{ margin-top: 40px;}
+.margin_t_80{ margin-top: 80px;}
+.label_brick_pl{ color: #d1452e; line-height: 50px; float: left; font-size: 14px;}/* 砖红色 */
+/* 主页  */
+.page_pl{ width:1920px; height:1080px; left:0; top:0; }
+#title{ left:604px; top:59px;}
+#Survey_title{left:118px; top:95px; }
+#enter_bt{ left:90px; top:639px;}
+#video_bt{ left:519px; top:840px;}
+#close_up{ left:445px; top:140px; }
+#video_bar{ width: 100%; height: 100%;}
+#map_div{ background:url(frame_1.png); width:557px; height:431px; left:95px; top:176px; }
+#home_right_1{ background:url(frame_2.png); width:1145px; height:431px; left:682px; top:176px;}
+#home_right_2{ background:url(frame_3.png); width:1145px; height:355px; left:682px; top:635px;}
+#Disabled_sum{ width:270px; height:80px; left:36px; top:70px; }
+#Disabled_sum2{ width:270px; height:40px; left:36px; top:140px; }
+.Disabled_sum_lab{ line-height: 20px; width: 85px; color:#ffffff; font-size: 12px;}
+#Disabled_sum_1{left:375px; top:113px; }
+#Disabled_sum_2{left:540px; top:113px; }
+#Disabled_sum2_1{left:375px; top:145px; }
+#Disabled_sum2_2{left:540px; top:145px; }
+
+#survey_1_legend{left:318px; top:117px; }
+#Age_group{ width:275px; height:180px; left:36px; top:207px;}
+#Marital_status{ width:275px; height:180px; left:311px; top:207px;}
+#school{ width:428px; height:360px; left:704px; top:36px;}
+#survey_3_legend{left:722px; top:80px; }
+#Disability_category{ width:606px; height:352px; left:0px; top:0px; }
+#Degree_of_Education{ width:536px; height:352px; left:606px; top:0px; }
+
+/*  分类  */
+#classify{ width:1748px; height:925px; left:88px; top:73px; background:url(frame_4_h.png); position: relative;}
+.close_home_bt_pl{ left:60px; top:57px;}
+#province_bt{ left:128px; top:290px; }
+#city_bt{ left:644px; top:290px; }
+#county_bt{ left:1162px; top:290px; }
+.page2_pl{ width:1748px; height:925px; left:88px; top:73px; background:url(frame_4.png);}
+.left_menu{width:267px; height:831px; left:47px; top:90px; overflow:auto;}
+::-webkit-scrollbar {/*隐藏滚轮*/display: none;}
+.menu_pl,.menu2_pl,.menu3_pl{ margin-top:47px; margin-left:0;}
+#menu_11,#menu2_11,#menu3_11{margin-bottom:47px; }
+
+/*  省级 */
+.province_bar{ width:1356px; height:830px; left:388px; top:90px;}
+/*  省级 概况 */
+#province_1_1{ width:520px; height:534px; margin-left:20px; margin-top:40px; }
+#province_1_1_legend{ left:20px; top:230px; }
+#province_1_2{ width:657px; height:600px; margin-left:20px; margin-top:40px; }
+#province_1_2_legend{ left:70px; top:180px; }
+#province_bar_1_left,#province_bar_1_right{ width:657px; height:830px;}
+#province_bar_1_lab_1{  margin-left: 20px; margin-top: 65px;}
+#province_bar_1_lab_2{  margin-left: 20px; margin-top: 65px;}
+/*  省级 经济 */
+#province_2_1{ width:473px; height:320px; margin-left:20px; margin-top:40px; }
+#province_2_1_legend{ left:20px; top:150px; }
+#province_2_2{ width:473px; height:230px; margin-left:20px; margin-top:40px; }
+#province_2_2_legend{ left:20px; top:640px; }
+#province_2_3{ width:473px; height:320px; margin-left:20px; margin-top:40px; }
+#province_2_3_legend{ left:20px; top:150px; }
+#province_2_4{ width:473px; height:320px; margin-left:20px; margin-top:40px; }
+#province_2_4_legend{ left:20px; top:526px; }
+/*  省级 住房 */
+#province_3_1{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_3_1_legend{ left:20px; top:160px; }
+#province_3_2{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_3_2_legend{ left:20px; top:550px; }
+#province_3_3{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_3_3_legend{ left:20px; top:160px; }
+#province_3_4{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_3_4_legend{ left:20px; top:550px; }
+/*  省级 教育 */
+.Energybar_pl{width: 600px; height: 30px; margin-top:10px;  background: #ff5b09; margin-left: 20px; margin-right: 20px;}
+.circle_bar{width: 172px; height: 172px; margin-left: 40px; background:url(circle_bg.png); background-size: cover;   }
+.circle_bar_lab_1{ width: 100%; line-height:40px; font-size: 18px; color:#1be3ff; float: left; text-align: center; margin-top:55px;}
+.circle_bar_lab_2{ width: 100%; line-height:20px; font-size: 16px; color:#ffffff; float: left; text-align: center;}
+/*  省级 就业 */
+#province_5_1{ width:530px; height:150px; margin-left:20px; margin-top:20px; }
+#province_5_2{ width:1200px; height:300px; margin-left:20px; margin-top:20px; }
+#province_5_2_legend{ left:20px; top:483px; }
+#province_5_3_legend{ left:665px; top:95px; }
+/*  省级 社保 */
+#province_6_1{ width:530px; height:200px; margin-left:20px; margin-top:20px; }
+#province_6_2{ width:500px; height:300px; margin-left:20px; margin-top:20px; }
+#province_6_2_legend{ left:20px; top:500px; }
+#province_6_3{ width:700px; height:200px; margin-left:20px; margin-top:20px; }
+#province_6_4{ width:350px; height:360px; margin-left:20px; margin-top:20px; }
+#province_6_4_legend{ left:20px; top:150px; }
+#province_6_5{ width:350px; height:360px; margin-left:20px; margin-top:20px; }
+/*  省级 托养 */
+#province_7_1{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_7_1_legend{ left:20px; top:200px; }
+#province_7_2{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_7_2_legend{ left:30px; top:580px; }
+#province_7_3{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_7_3_legend{ left:30px; top:170px; }
+#province_7_4{ width:650px; height:300px; margin-left:20px; margin-top:20px; }
+#province_7_4_legend{ left:30px; top:625px; }
+/*  省级 法律与文本 */
+#province_8_1{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_8_1_legend{ left:20px; top:200px; }
+#province_8_2{ width:473px; height:300px; margin-left:20px; margin-top:20px; }
+#province_8_2_legend{ left:20px; top:620px; }
+#province_8_3{ width:300px; height:300px; margin-left:20px; margin-top:20px; }
+#province_8_3_legend{ left:30px; top:156px; }
+#province_8_4{ width:300px; height:300px; margin-left:20px; margin-top:20px; }
+#province_8_4_legend{ left:30px; top:580px; }
+/*  省级 建设 */
+#province_9_1{ width:410px; height:650px; margin-left:20px; margin-top:20px; }
+#province_9_2{ width:900px; height:380px; margin-left:20px; margin-top:20px; }
+#province_9_3{ width:900px; height:180px; margin-left:20px; margin-top:20px; }
+#province_9_1_legend{ left:35px; top:190px; }
+
+.province_9_3_bar{ width: 230px; margin-right: 30px;}
+.province_9_3_lab_1{width:170px; color: #fff; line-height: 50px; float: left; font-size: 14px;}/* 砖红色 */
+.province_9_3_lab_2{width:60px; color: #d1452e; line-height: 50px; float: left; font-size: 14px;}/* 砖红色 */
+/*  省级 成效 */
+#province_10_1{ width:1200px; height:330px; margin-left:20px; margin-top:20px; }
+/*  省级 辅助器具 */
+.province_bar_11_left_1{ width: 525px; height:250px;}
+#province_11_1{ width:505px; height:160px; margin-left:20px; margin-top:20px; }
+#province_11_1_legend{ left:20px; top:185px; }
+.province_bar_11_left_2{ width: 725px; height:250px;}
+#province_11_2{ width:700px; height:160px; margin-left:20px; margin-top:20px; }
+#province_11_2_legend{ left:20px; top:425px; }
+.province_bar_11_left_3{ width: 725px; height:250px; margin-top:20px;  }
+#province_11_3{ width:370px; height:250px; margin-left:20px; margin-top:20px; }
+#province_11_3_legend{ left:20px; top:695px; }
+.province_bar_11_right_1{ width: 725px; height:250px; margin-left: 100px;}
+#province_11_4{ width:370px; height:250px; margin-left:20px; margin-top:20px; }
+#province_11_4_legend{ left:120px; top:175px; }
+#province_11_5{ width:620px; height:250px; margin-left:220px; margin-top:20px; }
+#province_11_5_legend{ left:510px; top:295px; }
+.province_bar_11_right_2{ width: 725px; height:250px; margin-left:100px; }
+#province_11_6{ width:370px; height:250px; margin-left:20px; margin-top:20px; }
+#province_11_6_legend{ left:120px; top:695px; }
+
+
+/*  市级 */
+.city_bar{ width:1356px; height:830px; left:388px; top:90px;}
+
+/*  市级 概况 */
+.city_farming_bar{ width:320px; height:200px; float: left; margin-top:20px;}
+.city_children_bar{width:245px; height:50px; position: absolute; left:0px;  border-bottom: 1px solid #1be3ff;}
+.city_children_bar2{width:245px; height:50px; position: absolute; left:0px;  border-bottom: 1px solid #1be3ff;}
+#city_1_5{ width:470px; height:300px; margin-left:20px; margin-top:40px; overflow: hidden; position: relative;}
+.city_1_5_bar{width:470px; height:300px; position: absolute; top:0px; }
+#city_1_6{ width:235px; height:200px; margin-left:35px; margin-top:20px; overflow: hidden; position:relative; }
+#city_1_7{ width:235px; height:200px; margin-left:72px; margin-top:20px; overflow: hidden; position:relative;}
+/*  市级 经济 */
+.city_2_countryside_bar,.city_2_city_bar{ width:470px; height:50px; position: absolute; left: 0; }
+#city_2_0,#city_2_2{width:470px; height:200px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+#city_2_1,#city_2_3{ width:470px; height:300px; margin-left:20px; margin-top:40px;  overflow: hidden; position:relative;}
+.city_2_1_bar{width:470px; height:300px; position: absolute; top:0px; }
+.city_2_3_bar{width:470px; height:300px; position: absolute; top:0px; }
+/*  市级 住房 */
+#city_3_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+#city_3_1{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.city_3_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+.city_3_1_bar{width:510px; height:250px; position: absolute; top:0px; }
+#city_3_2{width:1120px; height:137px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_3_city_bar{ width:80px; height:137px; position: absolute; top: 0; }
+/*  市级 教育 */
+#city_4_0{ width: 245px; height:200px;  margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.city_4_0_bar{width:245px; height:50px; position: absolute; left:0px;  border-bottom: 1px solid #1be3ff;}
+#city_4_1{ width: 775px; height:121px; margin-left: -60px; margin-top: 80px; overflow: hidden; position:relative;}
+.city_4_1_bar{width:121px; height:121px; position: absolute; top:0px; background: url(circle_bg2.png); }
+.city_4_1_lab_1{ width: 100%; line-height:40px; font-size: 16px; color:#1be3ff; float: left; text-align: center; margin-top:30px;}
+.city_4_1_lab_2{ width: 100%; line-height:20px; font-size: 14px; color:#ffffff; float: left; text-align: center;}
+#city_4_2{width:1120px; height:137px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_4_2_bar{ width:80px; height:137px; position: absolute; top: 0; }
+/*  市级 就业 */
+#city_5_0{ width: 1200px; height:200px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.city_5_0_bar{width:400px; height:200px; position: absolute; top:0px; }
+#city_5_1,#city_5_2{ width: 600px; height:150px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.city_5_1_bar,.city_5_2_bar{width:600px; height:50px; position: absolute; left:0px; }
+/*  市级 社保 */
+#city_6_0{ width: 580px; height:220px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.city_6_0_bar{width:580px; height:220px; position: absolute; top:0px; }
+#city_6_1{ width:500px; height:300px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.city_6_1_bar{width:500px; height:300px; position: absolute; top:0px; }
+#city_6_2{ width:700px; height:200px; margin-left:20px; margin-top:110px; }
+#city_6_3{width:300px; height:170px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_6_3_bar{ width:100px; height:170px; position: absolute; top: 0; }
+#city_6_4{ width:350px; height:360px;  margin-top:20px; overflow: hidden; position:relative;}
+.city_6_4_bar{width:350px; height:360px; position: absolute; top:0px; }
+/*  市级 托养 */
+#city_7_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative; }
+.city_7_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+#city_7_1{width:520px; height:210px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_7_1_bar{ width:520px; height:35px; position: absolute; left: 0; }
+#city_7_2{width:550px; height:150px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_7_2_bar{ width:550px; height:50px; position: absolute; left: 0; }
+#city_7_3{ width:650px; height:250px; margin-left:20px; margin-top:40px;overflow: hidden; position:relative; }
+.city_7_3_bar{width:650px; height:250px; position: absolute; top:0px; }
+/*  市级 法律与文本 */
+#city_8_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.city_8_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+#city_8_1{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.city_8_1_bar{width:510px; height:250px; position: absolute; top:0px; }
+#city_8_2,#city_8_3,#city_8_4,#city_8_5{ width: 245px; height:200px;  margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.city_8_2_bar{width:245px; height:50px; position: absolute; left:0px; border-bottom: 1px solid #1be3ff; }
+/*  市级 建设 */
+#city_9_0{ width:400px; height:600px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;  }
+.city_9_0_bar{width:400px; height:50px; position: absolute; left:0px; }
+#city_9_1{ width:750px; height:370px; margin-left:20px; margin-top:40px; }
+#city_9_1_legend{ left:15px; top:190px; }
+.city_9_2_label{ color:#18cae5; line-height: 50px; font-size: 14px;}
+.city_9_2_bar{width: 230px; height:100px;   float: left; margin-right: 70px; }
+.city_9_2_bar div{ border-top: 1px solid #1be3ff; }
+.city_9_2_bar_label_1{ color:#18cae5; line-height: 50px; font-size: 14px; width: 170px;  float: left;}
+.city_9_2_bar_label_2{ color:#ff5230; line-height: 50px; font-size: 12px; width: 60px;  float: left;}
+/*  市级 成效 */
+#city_10_0{ width:1160px; height:360px; left:156px; top:20px;overflow: hidden; position:relative; }
+.city_10_0_bar{width:290px; height:360px; position: absolute; top:0px; }
+#city_10_1{ width:1250px; height:126px;  margin-left:20px; margin-top:40px;}
+.city_10_1_label{ width:230px; line-height:126px; font-size: 16px; color:#ffffff; float: left; text-align: center;}
+.city_10_1_bar{width:121px; height:121px; margin-left:40px; margin-top:0px; background: url(circle_bg2.png); }
+.city_10_1_lab_1{ width: 100%; line-height:40px; font-size: 14px; color:#1be3ff; float: left; text-align: center; margin-top:30px;}
+.city_10_1_lab_2{ width: 100%; line-height:20px; font-size: 12px; color:#ffffff; float: left; text-align: center;}
+/*  市级 辅助器具 */
+.city_bar_11_left_0{ width: 525px; height:250px;}
+#city_11_0{ width:505px; height:160px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.city_11_0_bar{width:505px; height:160px; position: absolute; top:0px; }
+#city_11_0_legend{ left:20px; top:185px; }
+.city_bar_11_left_1{ width: 725px; height:250px;}
+#city_11_1{ width:700px; height:160px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.city_11_1_bar{width:700px; height:160px; position: absolute; top:0px; }
+#city_11_1_legend{ left:20px; top:425px; }
+.city_bar_11_left_2{ width: 725px; height:250px; margin-top:20px;  }
+#city_11_2{ width:370px; height:250px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.city_11_2_bar{width:370px; height:250px; position: absolute; top:0px; }
+#city_11_2_legend{ left:20px; top:695px; }
+.city_bar_11_right_0{ width: 725px; height:250px; margin-left: 100px;}
+#city_11_3{ width:370px; height:250px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.city_11_3_bar{width:370px; height:250px; position: absolute; top:0px; }
+#city_11_3_legend{ left:120px; top:175px; }
+#city_11_4{ width:620px; height:250px; margin-left:220px; margin-top:20px; overflow: hidden; position:relative;}
+.city_11_4_bar{width:620px; height:250px; position: absolute; top:0px; }
+#city_11_4_legend{ left:510px; top:295px; }
+.city_11_right_1{ width: 725px; height:250px; margin-left:100px; }
+#city_11_5{ width:370px; height:250px; margin-left:120px; margin-top:20px; overflow: hidden; position:relative;}
+.city_11_5_bar{width:370px; height:250px; position: absolute; top:0px; }
+#city_11_5_legend{ left:120px; top:695px; }
+
+
+
+/*  县级 */
+.county_bar{ width:1356px; height:830px; left:388px; top:90px;}
+
+/*  县级 概况 */
+.county_farming_bar{ width:320px; height:200px; position: absolute; top:20px;}
+.county_children_bar{width:245px; height:50px; position: absolute; left:0px;  border-bottom: 1px solid #1be3ff;}
+.county_children_bar2{width:245px; height:50px; position: absolute; left:0px;  border-bottom: 1px solid #1be3ff;}
+#county_1_5{ width:470px; height:300px; margin-left:20px; margin-top:40px; overflow: hidden; position: relative;}
+.county_1_5_bar{width:470px; height:300px; position: absolute; top:0px; }
+#county_children{ width:235px; height:200px; margin-left:35px; margin-top:20px; overflow: hidden; position:relative;}
+#county_1_7{ width:235px; height:200px; margin-left:72px; margin-top:20px; overflow: hidden; position:relative;}
+/*  县级 经济 */
+.county_2_countryside_bar,.county_2_county_bar{ width:470px; height:50px; position: absolute; left: 0; }
+#county_2_0,#county_2_2{width:470px; height:200px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+#county_2_1,#county_2_3{ width:470px; height:300px; margin-left:20px; margin-top:40px;  overflow: hidden; position:relative; }
+.county_2_1_bar{width:470px; height:300px; position: absolute; top:0px; }
+.county_2_3_bar{width:470px; height:300px; position: absolute; top:0px; }
+/*  县级 住房 */
+#county_3_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+#county_3_1{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.county_3_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+.county_3_1_bar{width:510px; height:250px; position: absolute; top:0px; }
+#county_3_2{width:1120px; height:137px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_3_county_bar{ width:80px; height:137px; position: absolute; top: 0; }
+/*  县级 教育 */
+#county_4_0{ width: 245px; height:200px;  margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.county_4_0_bar{width:245px; height:50px; position: absolute; left:0px; border-bottom: 1px solid #1be3ff; }
+#county_4_1{ width: 775px; height:121px; margin-left: -60px; margin-top: 80px; overflow: hidden; position:relative;}
+.county_4_1_bar{width:121px; height:121px; position: absolute; top:0px; background: url(circle_bg2.png); }
+.county_4_1_lab_1{ width: 100%; line-height:40px; font-size: 16px; color:#1be3ff; float: left; text-align: center; margin-top:30px;}
+.county_4_1_lab_2{ width: 100%; line-height:20px; font-size: 14px; color:#ffffff; float: left; text-align: center;}
+#county_4_2{width:1120px; height:137px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_4_2_bar{ width:80px; height:137px; position: absolute; top: 0; }
+/*  县级 就业 */
+#county_5_0{ width: 1200px; height:200px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.county_5_0_bar{width:400px; height:200px; position: absolute; top:0px; }
+#county_5_1,#county_5_2{ width: 600px; height:150px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.county_5_1_bar,.county_5_2_bar{width:600px; height:50px; position: absolute; left:0px; }
+/*  县级 社保 */
+#county_6_0{ width: 580px; height:220px; margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.county_6_0_bar{width:580px; height:220px; position: absolute; top:0px; }
+#county_6_1{ width:500px; height:300px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_6_1_bar{width:500px; height:300px; position: absolute; top:0px; }
+#county_6_2{ width:700px; height:200px; margin-left:20px; margin-top:110px; }
+#county_6_3{width:300px; height:170px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_6_3_bar{ width:100px; height:170px; position: absolute; top: 0; }
+#county_6_4{ width:350px; height:360px;  margin-top:20px; overflow: hidden; position:relative;}
+.county_6_4_bar{width:350px; height:360px; position: absolute; top:0px; }
+/*  县级 托养 */
+#county_7_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.county_7_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+#county_7_1{width:520px; height:210px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_7_1_bar{ width:520px; height:35px; position: absolute; left: 0; }
+#county_7_2{width:550px; height:150px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_7_2_bar{ width:550px; height:50px; position: absolute; left: 0; }
+#county_7_3{ width:650px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative; }
+.county_7_3_bar{width:650px; height:250px; position: absolute; top:0px; }
+/*  县级 法律与文本 */
+#county_8_0{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.county_8_0_bar{width:510px; height:250px; position: absolute; top:0px; }
+#county_8_1{ width:510px; height:250px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;}
+.county_8_1_bar{width:510px; height:250px; position: absolute; top:0px; }
+#county_8_2,#county_8_3,#county_8_4,#county_8_5{ width: 245px; height:200px;  margin-left: 20px; margin-top: 20px; overflow: hidden; position:relative;}
+.county_8_2_bar{width:245px; height:50px; position: absolute; left:0px; border-bottom: 1px solid #1be3ff; }
+/*  县级 建设 */
+#county_9_0{ width:400px; height:600px; margin-left:20px; margin-top:40px; overflow: hidden; position:relative;  }
+.county_9_0_bar{width:400px; height:50px; position: absolute; left:0px; }
+#county_9_1{ width:750px; height:370px; margin-left:20px; margin-top:40px; }
+#county_9_1_legend{ left:15px; top:190px; }
+.county_9_2_label{ color:#18cae5; line-height: 50px; font-size: 14px;}
+.county_9_2_bar{width: 230px; height:100px;  float: left; margin-right: 70px; }
+.county_9_2_bar div{ border-top: 1px solid #1be3ff; }
+.county_9_2_bar_label_1{ color:#18cae5; line-height: 50px; font-size: 14px; width: 170px;  float: left;}
+.county_9_2_bar_label_2{ color:#ff5230; line-height: 50px; font-size: 12px; width: 60px;  float: left;}
+/*  县级 成效 */
+#county_10_0{ width:1160px; height:360px; left:156px; top:20px;overflow: hidden; position:relative; }
+.county_10_0_bar{width:290px; height:360px; position: absolute; top:0px; }
+#county_10_1{ width:1250px; height:126px;  margin-left:20px; margin-top:40px;}
+.county_10_1_label{ width:230px; line-height:126px; font-size: 16px; color:#ffffff; float: left; text-align: center;}
+.county_10_1_bar{width:121px; height:121px; margin-left:40px; margin-top:0px; background: url(circle_bg2.png); }
+.county_10_1_lab_1{ width: 100%; line-height:40px; font-size: 14px; color:#1be3ff; float: left; text-align: center; margin-top:30px;}
+.county_10_1_lab_2{ width: 100%; line-height:20px; font-size: 12px; color:#ffffff; float: left; text-align: center;}
+/*  县级 辅助器具 */
+.county_bar_11_left_0{ width: 525px; height:250px;}
+#county_11_0{ width:505px; height:160px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.county_11_0_bar{width:505px; height:160px; position: absolute; top:0px; }
+#county_11_0_legend{ left:20px; top:185px; }
+.county_bar_11_left_1{ width: 725px; height:250px;}
+#county_11_1{ width:700px; height:160px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.county_11_1_bar{width:700px; height:160px; position: absolute; top:0px; }
+#county_11_1_legend{ left:20px; top:425px; }
+.county_bar_11_left_2{ width: 725px; height:250px; margin-top:20px;  }
+#county_11_2{ width:370px; height:250px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative; }
+.county_11_2_bar{width:370px; height:250px; position: absolute; top:0px; }
+#county_11_2_legend{ left:20px; top:695px; }
+.county_bar_11_right_0{ width: 725px; height:250px; margin-left: 100px;}
+#county_11_3{ width:370px; height:250px; margin-left:20px; margin-top:20px; overflow: hidden; position:relative;}
+.county_11_3_bar{width:370px; height:250px; position: absolute; top:0px; }
+#county_11_3_legend{ left:120px; top:175px; }
+#county_11_4{ width:620px; height:250px; margin-left:220px; margin-top:20px; overflow: hidden; position:relative;}
+.county_11_4_bar{width:620px; height:250px; position: absolute; top:0px; }
+#county_11_4_legend{ left:510px; top:295px; }
+.county_11_right_1{ width: 725px; height:250px; margin-left:100px; }
+#county_11_5{ width:370px; height:250px; margin-left:120px; margin-top:20px; overflow: hidden; position:relative;}
+.county_11_5_bar{width:370px; height:250px; position: absolute; top:0px; }
+#county_11_5_legend{ left:120px; top:695px; }
+
+
+/* 公共 */
+#classify_up{ width:1748px; height:270px; left: 0; top: 0; }
+#classify_down{ width:1748px; height:260px; left: 0; top: 670px; }
+.title_bar_pl{width:324px; height:60px; background:url(title_bg.png); margin-left: 20px; margin-top: 44px;}
+.title_lab_pl{ width: 100%; line-height:60px; font-size: 18px; color:#1be3ff; float: left; text-align: center; }
+.province_bar_left,.province_bar_right{ width:657px; height:830px; position: relative;}
+.city_bar_left,.city_bar_right{ width:657px; height:830px;}
+.county_bar_left,.county_bar_right{ width:657px; height:830px;}
+#list_select{ right:120px; top:77px; background: url(list_select_bg.png); width:192px; height:84px;}
+#list_select label{line-height: 84px; width: 100%; text-align: center; float: left; color: #2acdf6; font-size: 18px;}
+#list_select_bar{ width:320px; height: 600px; overflow: auto;right:120px; top:161px; border: 1px solid #2acdf6; background: rgba(0,0,0,0.6); }
+#list_select_bar label{ line-height: 60px; border-bottom: 1px solid #072a3e; width: 220px; margin-left: 50px;  float: left; color: #2acdf6;}
